@@ -165,7 +165,7 @@
     const credentials = btoa(`${usuario}:${password}`);
 
     try {
-        const response = await fetch("http://127.0.0.1:8000", {
+        const response = await fetch("https://a3-airport-midm.onrender.com", {
             method: "GET", // Ou POST, dependendo do caso
             headers: {
                 "Authorization": `Basic ${credentials}`,
